@@ -4,7 +4,26 @@
     background-color:rgb(10, 241, 229);
     text-align: center;
 }
-#dispositivo{
+.dispositivo{
     font-size: 60px;
     color: white;
+}
+
+@media (min-width: 800px) {
+     .barra{
+        height: 150px;
+        background-color: green;
+     }  
+     .dispositivo{
+        display: none;
+     } 
+}
+@media (min-width: 1228px){
+    .barra{
+        height: 200px;
+        background-color: blue;
+    }
+}    
+.rodape {
+    text-align: center;
 }
