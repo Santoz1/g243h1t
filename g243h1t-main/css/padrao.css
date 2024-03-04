@@ -4,26 +4,46 @@
     background-color:rgb(10, 241, 229);
     text-align: center;
 }
-.dispositivo{
+.mobile{
     font-size: 60px;
     color: white;
 }
-
+.tablet {
+    display: none;
+}
+.desktop {
+    display: none;
+}
 @media (min-width: 800px) {
      .barra{
         height: 150px;
         background-color: green;
      }  
-     .dispositivo{
+     .mobile{
         display: none;
      } 
+     .tablet {
+        display: inline;
+        font-size: 70px;
+        color: red;
+        text-align: center;
+     }
 }
 @media (min-width: 1228px){
     .barra{
         height: 200px;
         background-color: blue;
     }
+    .tablet{
+        display: none;
+    }
+    .desktop{
+        display: inline;
+        font-size: 80px;
+        color: aqua;
+        text-align: center;
+    }
 }    
 .rodape {
     text-align: center;
-}
+}    
