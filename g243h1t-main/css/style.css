@@ -1,0 +1,67 @@
+.barra {
+    width: 100%;
+    height: 100px;
+    background-color:rgb(10, 241, 229);
+    text-align: center;
+}
+.mobile{
+    font-size: 60px;
+    color: white;
+}
+.tablet {
+    display: none;
+}
+.desktop {
+    display: none;
+}
+@media (min-width: 800px) {
+     .barra{
+        height: 150px;
+        background-color: green;
+     }  
+     .mobile{
+        display: none;
+     } 
+     .tablet {
+        display: inline;
+        font-size: 70px;
+        color: red;
+        text-align: center;
+     }
+}
+@media (min-width: 1228px){
+    .barra{
+        height: 200px;
+        background-color: blue;
+    }
+    .tablet{
+        display: none;
+    }
+
+    .conteudo{
+        width: 100%;
+        background-color: brown;
+    }
+    
+    .botoes {
+        width: 100%;
+        height: 30px;
+        background-color: brown;
+        font-size: 22px;
+        padding-top: 4px;
+        padding-bottom: 6px;
+    }
+    
+    .desktop{
+        display: inline;
+        font-size: 80px;
+        color: rgb(12, 212, 212);
+        text-align: center;
+    }
+    .botoes{
+        width: 25%;
+    }
+}    
+.rodape {
+    text-align: center;
+}    
